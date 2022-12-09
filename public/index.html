@@ -4,21 +4,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link href="/dist/output.css" rel="stylesheet">
+
   
   <title>Nasa Api</title>
 </head>
-<body class="bg-gray-500">
+<body class="bg-cover bg-center w-full h-screen bg-no-repeat py-10 " style="background-image: url(../images/nasa.jpeg);">
+  <div class="sm:max-w-screen-lg  px-5 mx-auto w-full h-full flex flex-col bg-black bg-opacity-40 rounded object-cover" >
+    <div class="">
+    <h1 class="text-white font-poppins flex justify-center  text-lg ">Picture of the day</h1>
+    <div class="flex items-center justify-center">
+     
+    </div>
+      <div class="flex justify-center my-4 ">
+        <input class="rounded-lg mr-4" type="date">
+        <button type="button" class="button text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Picture</button>
+      </div>
+    
+
+    <div class="text-white mx-auto object-cover ">
+      <div class="flex flex-col ">
+        <img class= "flex justify-center max-h-52 md:max-h-96 object-contain "src="" alt="">
+      </div>
+      
+      <h2 class="flex justify-center">Description</h2>
+      <h3 class="flex justify-center"></h3>
+      <!-- <iframe src="" frameborder="0"></iframe> -->
+    </div>
+    
+  </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+
+  <script src="../js/app.js"></script>
   
-<h1 class="text-blue-700">Picture of the day</h1>
-<input type="date">
-<button type="button" name="button">Get Picture</button>
 
-<h2>Nasa Rules!</h2>
-<img src="" alt="">
-<iframe src="" frameborder="0"></iframe>
-<h3>Explanation</h3>
 
-<script src="js/app.js"></script>
+
+
 </body>
 </html>
