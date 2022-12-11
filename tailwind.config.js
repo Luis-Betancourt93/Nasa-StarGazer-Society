@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: "'Poppins', sans-serif"
+        poppins: "'Poppins', sans-serif",
+        Merriweather: "'Merriweather', serif",
+        Climate: "'Climate Crisis', cursive;"
       }
     },
   },
